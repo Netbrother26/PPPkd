@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-(isi dari file lokal kamu)
-=======
-(isi dari file GitHub)
->>>>>>> origin/main
-# PPPkd
+# Project PPPkd
+
+Ini adalah project upload ke GitHub pertama saya.
