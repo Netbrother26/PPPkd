@@ -1,0 +1,156 @@
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Transaksi Penjualan Ruko Kios</h1>
+          </div><!-- /.col -->
+          
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+		
+		<div class="col-md-12 content mt-3">
+						<div class="card">
+							<div class="card p-3 mb-4">
+							  <h5 class="card-title mb-3">Form Penjualan</h5>
+							  
+								<form id="FormPenjualan">
+								  <div class="form-row">
+
+									<!-- No (auto & hidden) -->
+									<input type="hidden" id="No" name="No" />
+
+									<!-- No_CL auto generate -->
+									<div class="form-group col-md-6">
+									  <label for="No_TrxPenjualan">No Transaksi</label>
+									  <input type="text" class="form-control" id="TrxPenjualan" name="TrxPenjualan" readonly>
+									</div>
+									
+									<div class="form-group col-md-6">
+									  <label for="No_CL">Tanggal</label>
+									  <input type="date" class="form-control" id="Tanggal" name="Tanggal" readonly>
+									</div>
+									
+									
+									<!-- Nama (dari DataPembeli) -->
+									<div class="form-group col-md-6">
+									  <label for="Nama">Nama</label>
+									  <select class="form-control select2" id="Nama" name="Nama" required>
+										<option value="">-- Pilih Nama --</option>
+									  </select>
+									</div>
+									
+									<input type="hidden" id="NoIdentitas" name="NoIdentitas" />
+									<input type="hidden" id="Alamat" name="Alamat" />
+									<input type="hidden" id="Desa" name="Desa" />
+									<input type="hidden" id="Kecamatan" name="Alamat" />
+									<input type="hidden" id="Kabupaten" name="Kabupaten" />
+									<input type="hidden" id="No_HP" name="No_HP" />
+									<input type="hidden" id="Kontak_Darurat" name="Kontak_Darurat" />
+									<input type="hidden" id="Email" name="Email" />
+
+									<!-- Ukuran -->
+									<div class="form-group col-md-6">
+									  <label for="Ukuran">BlokNomor</label>
+									  <input type="text" class="form-control" id="BlokNomor" name="BlokNomor" readonly>
+									</div>
+									<!-- Ukuran -->
+									<div class="form-group col-md-6">
+									  <label for="Ukuran">TypeRuko</label>
+									  <input type="text" class="form-control" id="TypeRuko" name="TypeRuko" readonly>
+									</div>
+									<input type="hidden" id="Ukuran" name="Ukuran" />
+									
+									<!-- Harga (ubah ke text agar bisa format Rp) -->
+									<div class="form-group col-md-6">
+									  <label for="Harga">Harga</label>
+									  <input type="text" class="form-control" id="Harga" name="Harga" readonly>
+									</div>
+									
+									<div class="form-group col-md-6">
+									  <label for="Ukuran">Biaya Tambahan</label>
+									  <input type="text" class="form-control" id="Biaya_Tambahan" name="Biaya_Tambahan">
+									</div>
+									
+									<div class="form-group col-md-6">
+									  <label for="Ukuran">Discount</label>
+									  <input type="text" class="form-control" id="Discount" name="Discount">
+									</div>
+
+									
+									<!-- Harga (ubah ke text agar bisa format Rp) -->
+									<div class="form-group col-md-6">
+									  <label for="Harga">Total</label>
+									  <input type="text" class="form-control" id="Total" name="Total" readonly>
+									</div>
+
+									
+								  </div>
+
+								  <button type="submit" class="btn btn-primary mt-3">Simpan</button>
+								  <button type="reset" class="btn btn-warning mt-3">Batal</button>
+								</form>
+									
+
+								
+
+
+							</div>
+							
+
+						</div>
+					
+					</div>
+				
+				
+
+                    <div class="col-md-12 content mt-3">
+                        <div class="card">
+                            <div class="card-header" >
+                                <strong class="card-title">Data Penjualan</strong>
+								
+                            </div>
+                            <div class="card-body table-responsive">
+								<div class="table-responsive">
+                                <table id="TabelPenjualan" class="table table-striped container-fluid">
+								
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>No Invoice</th>
+                                            <th>Tanggal</th>
+                                            <th style="width: 80px;">Nama</th>
+											<th>Blok Nomor</th>
+											<th>Type Ruko</th>
+											<th>Harga</th>
+											<th>Biaya Tambahan</th>
+											<th>Discount</th>
+											<th>Total</th>
+											
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+									
+								</table>
+								</div>  
+						    </div>
+						</div>
+                    </div>
+				</div>
+		
+		
+		
+		
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
