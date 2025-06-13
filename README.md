@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # [AdminLTE - Bootstrap 4 Admin Dashboard](https://adminlte.io)
 
 [![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)
@@ -127,3 +128,8 @@ AdminLTE.io reserves the right to change the license of future releases.
 =======
 # PPPkd
 >>>>>>> f2297b3f9944ba3f435f49aa0b3d8e50af1ae67f
+=======
+# Project PPPkd
+
+Ini adalah project upload ke GitHub pertama saya.
+>>>>>>> 0960eeeeb4fee0df534345fabf452faa2496b6cd
